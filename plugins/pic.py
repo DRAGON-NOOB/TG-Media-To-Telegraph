@@ -9,7 +9,7 @@ from telegraph import upload_file
 async def start(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text=f"Hello {message.from_user.first_name},\n<b>I'm a Telegram To Telegra.ph Image/Video Uploader Bot. \n Created By @noob_uploader</b> \n  Do /help For More",
+        text=f"Hello {message.from_user.first_name},\n<b>I'm a Telegram To Telegra.ph Image/Video Uploader Bot. \n Created By @noob_admin</b> \n  Do /help For More",
         reply_to_message_id=message.message_id
     )
 
